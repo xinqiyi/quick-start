@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>example</artifactId>
+        <groupId>com.example</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example.north</groupId>
+    <artifactId>example-north</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>example-north-provider</module>
+        <module>example-north-scheduler</module>
+        <module>example-north-subscribe</module>
+        <module>example-north-web</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!--<dependency>
+            <groupId>com.example.north.provider</groupId>
+            <artifactId>example-north-provider</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.example.north.scheduler</groupId>
+            <artifactId>example-north-scheduler</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.example.north.subscribe</groupId>
+            <artifactId>example-north-subscribe</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.example.north.web</groupId>
+            <artifactId>example-north-web</artifactId>
+        </dependency>-->
+    </dependencies>
+
+</project>

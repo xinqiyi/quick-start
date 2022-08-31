@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>example</artifactId>
+        <groupId>com.example</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example.start</groupId>
+    <artifactId>example-start</artifactId>
+
+    <packaging>jar</packaging>
+    <name>${project.artifactId}</name>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.example.north.web</groupId>
+            <artifactId>example-north-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.example.north.provider</groupId>
+            <artifactId>example-north-provider</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.example.north.subscribe</groupId>
+            <artifactId>example-north-subscribe</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.example.north.scheduler</groupId>
+            <artifactId>example-north-scheduler</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.example.app</groupId>
+            <artifactId>example-app</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.example.domain</groupId>
+            <artifactId>example-domain</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.example.south.cache</groupId>
+            <artifactId>example-south-cache</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.example.south.customer</groupId>
+            <artifactId>example-south-customer</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.example.south.persistence</groupId>
+            <artifactId>example-south-persistence</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.example.south.publisher</groupId>
+            <artifactId>example-south-publisher</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
