@@ -50,8 +50,8 @@
             <artifactId>example-south-cache</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.example.south.customer</groupId>
-            <artifactId>example-south-customer</artifactId>
+            <groupId>com.example.south.consumer</groupId>
+            <artifactId>example-south-consumer</artifactId>
         </dependency>
         <dependency>
             <groupId>com.example.south.persistence</groupId>

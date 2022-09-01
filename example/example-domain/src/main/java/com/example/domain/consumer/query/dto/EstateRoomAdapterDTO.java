@@ -1,4 +1,4 @@
-package com.example.domain.customer.query.dto;
+package com.example.domain.consumer.query.dto;
 
 import lombok.Data;
 

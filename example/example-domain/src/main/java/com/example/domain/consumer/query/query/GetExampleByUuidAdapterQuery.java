@@ -1,4 +1,4 @@
-package com.example.domain.customer.query.query;
+package com.example.domain.consumer.query.query;
 
 import lombok.Data;
 

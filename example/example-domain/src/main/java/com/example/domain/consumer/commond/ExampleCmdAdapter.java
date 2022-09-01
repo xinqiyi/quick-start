@@ -1,8 +1,8 @@
-package com.example.domain.customer.commond;
+package com.example.domain.consumer.commond;
 
 
-import com.example.domain.customer.commond.cmd.UpdateExampleAdapterCmd;
-import com.example.domain.customer.commond.result.UpdateExampleAdapterResult;
+import com.example.domain.consumer.commond.cmd.UpdateExampleAdapterCmd;
+import com.example.domain.consumer.commond.result.UpdateExampleAdapterResult;
 
 /**
  * 命名(增删改) 外部接口 适配

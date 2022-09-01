@@ -14,7 +14,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>example-south-cache</module>
-        <module>example-south-customer</module>
+        <module>example-south-consumer</module>
         <module>example-south-persistence</module>
         <module>example-south-publisher</module>
     </modules>

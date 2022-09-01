@@ -1,7 +1,7 @@
 package com.example.app.commond.cmd.example;
 
 import com.example.domain.aggregate.example.model.ExampleAggr;
-import com.example.domain.customer.commond.cmd.UpdateExampleAdapterCmd;
+import com.example.domain.consumer.commond.cmd.UpdateExampleAdapterCmd;
 import lombok.Data;
 
 

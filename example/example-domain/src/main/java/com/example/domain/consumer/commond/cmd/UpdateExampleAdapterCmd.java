@@ -1,4 +1,4 @@
-package com.example.domain.customer.commond.cmd;
+package com.example.domain.consumer.commond.cmd;
 
 import lombok.Data;
 

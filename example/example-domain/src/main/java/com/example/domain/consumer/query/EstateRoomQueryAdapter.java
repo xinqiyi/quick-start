@@ -1,6 +1,6 @@
-package com.example.domain.customer.query;
+package com.example.domain.consumer.query;
 
-import com.example.domain.customer.query.dto.EstateRoomAdapterDTO;
+import com.example.domain.consumer.query.dto.EstateRoomAdapterDTO;
 
 /**
  * @Author: jzj
