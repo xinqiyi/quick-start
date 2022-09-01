@@ -22,7 +22,15 @@
         <module>example-app</module>
         <module>example-domain</module>
         <module>example-north</module>
+        <module>example-north/example-north-provider</module>
+        <module>example-north/example-north-web</module>
+        <module>example-north/example-north-scheduler</module>
+        <module>example-north/example-north-subscribe</module>
         <module>example-south</module>
+        <module>example-south/example-south-persistence</module>
+        <module>example-south/example-south-cache</module>
+        <module>example-south/example-south-consumer</module>
+        <module>example-south/example-south-publisher</module>
     </modules>
 
     <properties>
