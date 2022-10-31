@@ -6,7 +6,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.4.10</version>
-        <relativePath/> <!-- lookup parent from com.baiyan.ddd.biz.user.infrastructure.repository -->
+        <relativePath/>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -22,20 +22,17 @@
         <module>example-app</module>
         <module>example-domain</module>
         <module>example-north</module>
-        <module>example-north/example-north-provider</module>
-        <module>example-north/example-north-web</module>
-        <module>example-north/example-north-scheduler</module>
-        <module>example-north/example-north-subscribe</module>
+        <module>example-north-stub</module>
         <module>example-south</module>
-        <module>example-south/example-south-persistence</module>
-        <module>example-south/example-south-cache</module>
-        <module>example-south/example-south-consumer</module>
-        <module>example-south/example-south-publisher</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
+
+        <!-- Other Project Dependencies -->
+        <qf.framework.version>2.0.4</qf.framework.version>
+        <lombok.version>1.16.14</lombok.version>
     </properties>
 
     <dependencies>
@@ -59,24 +56,14 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.example.north.web</groupId>
-                <artifactId>example-north-web</artifactId>
+                <groupId>com.example.north</groupId>
+                <artifactId>example-north</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.example.north.provider</groupId>
-                <artifactId>example-north-provider</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.example.north.subscribe</groupId>
-                <artifactId>example-north-subscribe</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.example.north.scheduler</groupId>
-                <artifactId>example-north-scheduler</artifactId>
-                <version>${project.version}</version>
+                <groupId>com.example.north.stub</groupId>
+                <artifactId>example-north-stub</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>com.example.app</groupId>
@@ -89,23 +76,8 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.example.south.cache</groupId>
-                <artifactId>example-south-cache</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.example.south.consumer</groupId>
-                <artifactId>example-south-consumer</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.example.south.persistence</groupId>
-                <artifactId>example-south-persistence</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.example.south.publisher</groupId>
-                <artifactId>example-south-publisher</artifactId>
+                <groupId>com.example.south</groupId>
+                <artifactId>example-south</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <!--Project modules end -->
@@ -114,6 +86,18 @@
                 <groupId>com.components.ddd</groupId>
                 <artifactId>components-ddd</artifactId>
                 <version>${project.version}</version>
+            </dependency>
+
+            <!-- Other Project Dependencies -->
+            <dependency>
+                <groupId>com.qf</groupId>
+                <artifactId>qf-framework</artifactId>
+                <version>${qf.framework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
 
         </dependencies>

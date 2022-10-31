@@ -11,17 +11,19 @@
 
     <groupId>com.example.south</groupId>
     <artifactId>example-south</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>example-south-cache</module>
-        <module>example-south-consumer</module>
-        <module>example-south-persistence</module>
-        <module>example-south-publisher</module>
-    </modules>
+    <packaging>jar</packaging>
+    <name>${project.artifactId}</name>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.example.domain</groupId>
+            <artifactId>example-domain</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

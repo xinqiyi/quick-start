@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example.north</groupId>
-    <artifactId>example-north</artifactId>
+    <groupId>com.example.north.stub</groupId>
+    <artifactId>example-north-stub</artifactId>
 
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
@@ -21,10 +21,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.example.north.stub</groupId>
-            <artifactId>example-north-stub</artifactId>
-        </dependency>
         <dependency>
             <groupId>com.example.app</groupId>
             <artifactId>example-app</artifactId>

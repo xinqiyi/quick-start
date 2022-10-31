@@ -22,20 +22,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.example.north.web</groupId>
-            <artifactId>example-north-web</artifactId>
+            <groupId>com.example.north</groupId>
+            <artifactId>example-north</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.example.north.provider</groupId>
-            <artifactId>example-north-provider</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.example.north.subscribe</groupId>
-            <artifactId>example-north-subscribe</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.example.north.scheduler</groupId>
-            <artifactId>example-north-scheduler</artifactId>
+            <groupId>com.example.north.stub</groupId>
+            <artifactId>example-north-stub</artifactId>
         </dependency>
         <dependency>
             <groupId>com.example.app</groupId>
@@ -46,20 +38,8 @@
             <artifactId>example-domain</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.example.south.cache</groupId>
-            <artifactId>example-south-cache</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.example.south.consumer</groupId>
-            <artifactId>example-south-consumer</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.example.south.persistence</groupId>
-            <artifactId>example-south-persistence</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.example.south.publisher</groupId>
-            <artifactId>example-south-publisher</artifactId>
+            <groupId>com.example.south</groupId>
+            <artifactId>example-south</artifactId>
         </dependency>
 
     </dependencies>

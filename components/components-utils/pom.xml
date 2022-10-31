@@ -13,6 +13,12 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <org.apache.commons.lang3.version>3.0</org.apache.commons.lang3.version>
+        <com.alibaba.fastjson.version>1.2.78</com.alibaba.fastjson.version>
+        <cglib.version>3.2.4</cglib.version>
+        <javax.validation.api.version>2.0.1.Final</javax.validation.api.version>
+        <io.springfox.springfox-swagger2>2.6.1</io.springfox.springfox-swagger2>
+        <io.swagger.annotations.version>1.5.10</io.swagger.annotations.version>
     </properties>
 
     <dependencies>
@@ -20,6 +26,37 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>19.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${org.apache.commons.lang3.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${com.alibaba.fastjson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>${cglib.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>${javax.validation.api.version}</version>
+        </dependency>
+        <!--加入swwagger2 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${io.springfox.springfox-swagger2}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>${io.swagger.annotations.version}</version>
         </dependency>
     </dependencies>
 
